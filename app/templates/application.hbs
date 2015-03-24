@@ -1,0 +1,111 @@
+<div class="container">
+    <div class="row clearfix">
+      <div class="col-md-12 column">
+
+<!-- header - navigation -->
+
+  <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">Testing</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+          <ul class="nav navbar-nav navbar-right" >
+             <li>
+             {{link-to 'About' 'about'}}
+             </li>
+            <li>
+              {{link-to 'Renters' 'renters'}}
+            </li>
+            <li>
+             {{link-to 'Landlords' 'landlords'}}
+            </li>
+            <li class="dropdown">
+               {{link-to 'My Account' 'myaccount' classNames="dropdown-toggle"  data-toggle="dropdown"}}
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#">Action</a>
+                </li>
+                <li>
+                  <a href="#">Another action</a>
+                </li>
+                <li>
+                  <a href="#">Something else here</a>
+                </li>
+                <li class="divider">
+                </li>
+                <li>
+                  <a href="#">Separated link</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+<div class="row clearfix">
+            <div class="col-md-12 column">
+              <ul class="nav navbar-nav">
+
+              <li class="navbar-brand"> View Pittsburgh rental listings in:</li>
+
+             <li>{{link-to 'Oakland' 'listings'}}</li>
+             <li>{{link-to 'North Shore' 'listings'}}</li>
+             <li>{{link-to 'All Listings' 'listings'}}</li>
+          </ul>
+
+            </div>
+    </div>
+
+<div class="container">
+        {{outlet}}
+      </div>
+
+<h3>About Level Rent</h3>
+<p>
+        Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+</p>
+
+<!-- footer -->
+  <h4> footer </h4>
+
+           <div class="row clearfix">
+        <div class="col-md-2 column">
+          <ul>
+            <li>
+              Blog
+            </li>
+            <li>
+              Social Media
+            </li>
+            <li>
+              Beta Program
+            </li>
+            <li>
+              SiteMap
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 column">
+          <div class="media">
+             <a href="#" class="pull-left"><img src="http://lorempixel.com/64/64/" class="media-object" alt='' /></a>
+            <div class="media-body">
+              <h4 class="media-heading">
+                Nested media heading
+              </h4> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 column">
+        </div>
+
+</div>
+    </div>
+  </div>
+
+

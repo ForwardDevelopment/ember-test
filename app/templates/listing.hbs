@@ -1,0 +1,20 @@
+{{!--
+{{listing.p_id}}
+{{listing.address}}
+{{listing.area}}
+{{listing.startingBid}}
+{{listing.currentBid}}
+{{listing.description}} --}}
+
+<h1> Single Listing Page </h1>
+
+{{log record}}
+
+<ul class="list-unstyled">
+    {{!-- {{#each listing in model}}  {{/each}} --}}
+       <li >{{model.id}} - {{model.area}} - {{model.address}} - Starting Bid {{model.startingBid}} - Current Bid {{model.currentBid}}</li>
+
+</ul>
+
+
+{{outlet}}

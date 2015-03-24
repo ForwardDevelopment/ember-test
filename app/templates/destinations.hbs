@@ -1,0 +1,18 @@
+Destinations Test Page
+
+
+<ul class="list-unstyled">
+    {{#each destination in model}}
+       <li> {{destination.id}} - {{destination.title}}</li>
+    {{/each}}
+</ul>
+
+
+
+{{#each destination in model}}
+
+{{destination.id}}{{destination.title}}
+
+{{/each}}
+
+{{outlet}}

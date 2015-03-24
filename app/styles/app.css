@@ -1,0 +1,16 @@
+.homeGrid{margin: 0 0 2em 0}
+
+.homeGrid .pic{height:150px; width: 150px; }
+
+.homeBid{height:150px;}
+.homeBid button{}
+
+
+.push {
+    position: absolute;
+    bottom: 0px;
+}
+
+.homeBid button {
+width: 60%;
+}

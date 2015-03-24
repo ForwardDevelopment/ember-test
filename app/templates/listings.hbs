@@ -1,0 +1,12 @@
+<h2>Start bidding on a great place today!</h2>
+
+<h3>Currently <bold style="color:red">{{time}}</bold> we have <bold style="color:red"> {{listingCount}} </bold>properties avaliable</h3>
+
+<h2>Properties Avaliable</h2>
+<ul class="list-unstyled">
+    {{#each listing in model}}
+       <li > {{listing.p_id}} - {{listing.area}} - {{listing.address}} - Starting Bid {{listing.startingBid}} - Current Bid {{listing.currentBid}}</li>
+    {{/each}}
+</ul>
+
+{{!-- {{outlet}} --}}
